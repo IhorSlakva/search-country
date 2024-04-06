@@ -6,6 +6,7 @@ export const Loader = () => {
     <div className={css.backdrop}>
       {' '}
       <ClipLoader
+        color={'#22a6b3'}
         size={150}
         aria-label="Loading Spinner"
         data-testid="loader"
